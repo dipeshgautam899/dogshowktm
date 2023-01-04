@@ -1,0 +1,293 @@
+*
+{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    background: #f2f2f2f2;
+    font-family: 'Tangerine', serif;
+    color: #111;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("dog4.jpg");
+  
+    /* Control the height of the image */
+    /* min-height: 500px; */
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px 1820px;
+    position: relative;
+  }
+.container{
+    background: transparent;
+    width: 600px;
+    height: auto;
+    padding: 15px;
+    
+    /* border-top: 5px solid #A14A76; */
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+.container img{
+    width: 300px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.container h2{
+    
+    line-height: 24px;
+    font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+   color: #111;
+    margin-left: 62px ;
+    margin-bottom: 40px;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    align-items: center;
+}
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    color: #A14A76;
+    
+}
+.input-name img{
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+.lock{
+    padding: 8px 11px;
+}
+
+.radio-button{
+    margin-left: 10px;
+    
+}
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+.span{
+    padding: 20px;
+}
+.age{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+.email{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+.number{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+.img{
+    width: 90%;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.name, .age, .span, .email, .number, .img, .check-button{
+    border: 1px solid #cccccc;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+.name:hover, .age:hover, .span:hover, .email:hover, .number:hover, .img:hover, .check-button:hover{
+    background-color: #fafafa;
+}
+.name:focus, .age:focus, .span:focus, .email:focus, .number:focus, .img:focus, .check-button:focus{
+    border: 1px solid #A14A76;
+}
+
+.button{
+    /* background-color: #A14A76; */
+    color: #A14A76;
+    height: 30px;
+    line-height: 35px;
+    border: 1px solid #A14A76;
+    width: 90%;
+    outline: none;
+    font-size: 18px;
+   
+}
+.button:hover{
+    background-color: #A14A76;
+    cursor: pointer;
+    color: white;
+}
+.column{
+    float:right;
+    margin-top: 1000px;
+    margin-right: 100px;
+   
+    
+    
+}
+
+.input-name a{
+    color: #A14A76;
+}
+.input-name a:hover{
+    color: #f3087d;
+}
+@media (max-width: 375px){
+    body{
+        font-size: 18px;
+    }
+    .input-name img{
+        height: 160px;
+        width: 250px;
+        margin-left: 20px;
+    }
+    .container{
+        width: 100%;
+        
+    }
+    .container h2{
+        width: 100%;
+        margin-left: 10px;
+        font-size: 35px;
+    }
+    .container img{
+      margin-right: 20px;
+    }
+    .column{
+        position: absolute;
+        
+        
+        
+  
+    }
+    .column h4, p {
+        color: black;
+        font-size: 17px;
+    }
+    .column a{
+        color: black;
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px){
+    .input-name img{
+        height: 140px;
+        width: 200px;
+        margin-left: 1px;
+    }
+    .container{
+        width: 100%;
+    }
+    .container h2{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .container img{
+        margin-left: 50px;
+    }
+    .column{
+        position: absolute;
+        
+        
+  
+    }
+    .column h4, p {
+        color: black;
+    }
+    .column a{
+        color: black;
+    }
+}
+@media (max-width: 1199px) {
+    .bg-img {      
+        
+        background-size: cover;
+      
+      }
+    .container{
+        width: 100%;
+    }
+    .container h2{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .container img{
+        margin-left: 50px;
+    }
+    .column{
+        position: absolute;
+        bottom: 0;
+        top: 450px;
+        margin-left: 20px;
+        
+  
+    }
+    .column h4, p {
+        color: black;
+    }
+    .column a{
+        color: black;
+    }
+}
+@media (max-width:991px) {
+    .container{
+        width: 100%;
+    }
+    .container h2{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .container img{
+        margin-left: 50px;
+    }
+    .column{
+        position: absolute;
+        bottom: 0;
+        top: 450px;
+        margin-left: 20px;
+  
+    }
+    .column h4, p {
+        color: black;
+    }
+    .column a{
+        color: black;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        width: 100%;
+    }
+    .container h2{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .container img{
+        margin-left: 50px;
+    }
+    .column{
+        position: absolute;
+        bottom: 0;
+        top: 450px;
+        margin-left: 20px;
+  
+    }
+    .column h4, p {
+        color: black;
+    }
+    .column a{
+        color: black;
+    }
+}
